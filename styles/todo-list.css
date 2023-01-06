@@ -1,0 +1,22 @@
+.app-container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(28, 172, 216);
+  height: 600px;
+  width: 600px;
+}
+
+.app-header{
+  display: flex;
+  justify-content: center;
+}
+
+.todo-container{
+  display:flex;
+  justify-content: center;
+}
+.todo-element-container{
+  align-items: center;
+  justify-content: space-evenly;
+}
