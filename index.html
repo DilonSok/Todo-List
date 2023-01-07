@@ -9,20 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="app-container">
-      <header class="app-header">
-        <h1 class="app-title">Todo List</h1>
-      </header>
+    <div class="app-container">   
+      <header class="input-header">
+        <input class="title" id="todo-title" type="text" />
+        <input class="date" id="date-picker" type="date" />
+        <button onclick="addTodo()" id="add-button">Add</button>
+      </header>           
       <div class="todo-container">
         
         <div class="todo-element-container" id="element-container">
-          <input class="title" id="todo-title" type="text" />
-        <input class="date" id="date-picker" type="date" />
-        <button onclick="addTodo()" id="add-button">Add</button>
+          
         </div>
       </div>      
     </div>
-
     <script async src="index.js"></script>
   </body>
 </html>
