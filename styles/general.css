@@ -1,3 +1,26 @@
 .body{
   font-family: 'Merriweather';
+  background-color: rgb(72, 72, 237);
+  padding: none;
+  margin: none;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
+.app{
+  display:flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.app-container{
+  background-color: white;
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }

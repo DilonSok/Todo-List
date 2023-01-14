@@ -1,0 +1,19 @@
+.todo-screen-change-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.screen-change-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    word-spacing: 10px;
+}
+
+.clear-button-container{
+    margin-left: 40px;
+}
+

@@ -1,0 +1,33 @@
+.todo-main{
+    margin-bottom: 25px;
+    
+}
+
+.todo-container{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display:flex;
+    flex-direction: column;
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    margin: 0 20px -1px 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    z-index: 1;
+}
+
+.title-container{
+    display:flex;
+    flex: .95;
+}
+
+
+.options-container{
+    cursor: pointer;
+}
+
+
+

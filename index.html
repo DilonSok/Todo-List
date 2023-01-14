@@ -2,26 +2,77 @@
 <html>
   <head>
     <title>Todo List</title>
-    <link rel="stylesheet" href="styles/todo-list.css">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/add-bar.css">
+    <link rel="stylesheet" href="styles/screen-change.css">
+    <link rel="stylesheet" href="styles/todo.css">
+    <link href='https://css.gg/chevron-double-right.css' rel='stylesheet'>
+    <link href='https://css.gg/more-alt.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div class="app-container">   
-      <header class="input-header">
-        <input class="title" id="todo-title" type="text" />
-        <input class="date" id="date-picker" type="date" />
-        <button onclick="addTodo()" id="add-button">Add</button>
-      </header>           
-      <div class="todo-container">
-        
-        <div class="todo-element-container" id="element-container">
-          
+  <body style="background-color: rgb(72,72,237);">
+    <div class="app">
+      <div class="app-container">
+        <div class="add-header-bar-container">
+          <div class="add-header-bar">
+            <i class="gg-chevron-double-right"></i>
+            <input type="text" class="add-todo" placeholder="Add a new todo" id="todo-title">
+          </div>
         </div>
-      </div>      
+        <div class="todo-screen-change-bar">
+          <div class="screen-change-container">
+            <ul class="screens">
+              <li class="screen">All</li>
+              <li class="screen">Pending</li>
+              <li class="screen">Completed</li>
+            </ul>
+          </div>
+          <div class="clear-button-container">
+            <button class="clear-button">Clear All</button>
+          </div>
+        </div>
+        <div class="todo-main">
+          <div class="todo-container">
+            <div class="todo-item">
+              <div class="checkbox-container">
+                <input type="checkbox" class="checkbox">
+              </div>
+              <div class="title-container">
+                <p class="todo-title">Mow the lawn</p>
+              </div>
+              <div class="options-container">
+                <i class="gg-more-alt"></i>
+              </div>
+            </div>
+            <div class="todo-item">
+              <div class="checkbox-container">
+                <input type="checkbox" class="checkbox">
+              </div>
+              <div class="title-container">
+                <p class="title">Clean room</p>
+              </div>
+              <div class="options-container">
+                <i class="gg-more-alt"></i>
+              </div>
+            </div>  
+            <div class="todo-item">
+              <div class="checkbox-container">
+                <input type="checkbox" class="checkbox">
+              </div>
+              <div class="title-container">
+                <p class="todo-title">Walk the dog</p>
+              </div>
+              <div class="options-container">
+                <i class="gg-more-alt"></i>
+              </div>
+            </div>     
+          </div> 
+        </div>
+      </div>
     </div>
+    
     <script async src="index.js"></script>
   </body>
 </html>

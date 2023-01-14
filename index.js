@@ -53,7 +53,7 @@ let todos = []; //Todo-List array of todo-elements
       
       
       function render(){
-        document.getElementById("element-container").innerHTML = '';
+        document.getElementById("todo-container").innerHTML = '';
       
         todos.forEach(todo => {
           const currentElement = document.createElement('div');
@@ -64,7 +64,7 @@ let todos = []; //Todo-List array of todo-elements
           currentElement.appendChild(deleteButton);
           
       
-          const todoList = document.getElementById('element-container');
+          const todoList = document.getElementById('todo-container');
           todoList.appendChild(currentElement);
       
         });
