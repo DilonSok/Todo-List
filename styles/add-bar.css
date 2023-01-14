@@ -1,0 +1,32 @@
+.add-header-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-header-bar{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+}
+.gg-chevron-double-right{
+    opacity: .38;
+}
+.add-todo{
+    border: none;
+}
+.add-todo:focus{
+    outline: none;
+}
+
+.screen{
+    transition: .15s;
+}
+.screen:hover{
+    text-decoration-skip-ink: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
